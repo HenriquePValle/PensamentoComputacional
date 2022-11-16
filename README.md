@@ -1,0 +1,2 @@
+# PensamentoComputacional
+Projeto modelo
