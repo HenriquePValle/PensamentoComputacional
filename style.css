@@ -1,1 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+}
 
+header {
+    background-image: url(imagens\livros.png);
+}
+
+nav li {
+    display: inline-block;
+}
