@@ -11,7 +11,7 @@ body {
     text-shadow: 2px 2px #000;
     color: blue;
     background-image: url(imagens/livros.jpg);
-    margin: 1% auto;
+    margin: 1% auto 0;
     width: 100%;
     border-radius: 2px;
 }
@@ -19,16 +19,16 @@ body {
 nav {
     position: sticky;
     top: 0;
-    padding: 2%;
     line-height: 2;
     background-color: #990000;
     width: 100%;
+    text-align: center;
 }
 
 nav li {
     display: inline-block;
     text-transform: uppercase;
-    margin: 0 10%;
+    margin: 0 15%;
 }
 
 nav a {
