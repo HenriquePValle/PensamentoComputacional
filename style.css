@@ -56,13 +56,23 @@ footer {
 }
 
 footer img {
-    width: 50px;
+    width: 80px;
+}
+
+footer p {
+    line-height: 1.5;
+    font-size: 13px;
 }
 
 footer p:last-child::before {
-    content: "☠☣☢";
+    content: "☠ ☣ ☢ ";
 }
 
 footer p:last-child::after {
-    content: "☢☣☠";
+    content: " ☢ ☣ ☠";
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
 }
