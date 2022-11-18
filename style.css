@@ -58,6 +58,18 @@ main {
 main section {
     border: solid 1px #999;
     padding: 1%;
+    margin-bottom: 2%;
+}
+
+section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3px 3px 3px 15px;
+}
+
+section p {
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 main section:first-child img {
