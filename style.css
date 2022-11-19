@@ -4,6 +4,11 @@ body {
     font-family: 'Marhey', cursive;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .cabeçalho {
     text-align: center;
     font-size: 40px;
@@ -19,7 +24,8 @@ body {
 
 nav {
     position: sticky;
-    top: 0;
+    top: 0%;
+    left: 0;
     line-height: 2;
     background-color: #990000;
     width: 100%;
@@ -77,21 +83,17 @@ table {
     border: solid 1px red;
 }
 
-table thead {
+th {
     font-weight: bold;
+    background: #880000;
+    border: solid 1px #a00;
+    line-height: 2;
+}
+
+td {
     background: #400;
-}
-
-th tr td{
-    border: solid 1px #c00;
-}
-
-table tbody {
-    background: #600;
-}
-
-tbody td {
-    border: solid 1px #a03;
+    border: solid 1px #a00;
+    line-height: 1.5;
 }
 
 main section:first-child img {
